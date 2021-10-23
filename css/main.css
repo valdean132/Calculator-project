@@ -247,7 +247,8 @@ main > section{
 
     transition: background .5s ease;
 }
-.btn-single:hover{
+.btn-single:hover,
+.active{
     background-color: rgba(170, 170, 170, 0.247);
 }
 /** BTN Functions */
@@ -297,7 +298,8 @@ section aside{
     background-color: var(--paleta1-2);
     color: var(--paleta2-2);
 }
-.btn-igual:hover{
+.btn-igual:hover,
+.btn-igual-active{
     background-color: #53e0db9a;
 }
 /*? * * */

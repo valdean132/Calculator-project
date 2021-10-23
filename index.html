@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS LINKS -->
+    <!-- CSS Links -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+
+    <!-- JavaScript Links -->
+    <script src="./js/jquery.main.js"></script>
+    <script src="./js/main.js   "></script>
 
     <title>Calculadora</title>
 
@@ -24,7 +28,7 @@
                 </a>
             </nav>Menu navegador -->
             <div class="header-main history">
-                <a href="">
+                <a href="" title="Historico">
                     <i class="icon icon-history"></i>
                 </a>
             </div><!-- History -->
@@ -40,53 +44,53 @@
         <section>
             <section class="section-numbers-functions">
                 <div class="btn-functions">
-                    <div class="btn-single btn-functions-single clear-campo">
+                    <div btn-single="l" class="btn-single btn-functions-single clear-campo">
                         AC
                     </div><!-- Limpeza de campos -->
-                    <div class="btn-single btn-functions-single del-campo">
+                    <div btn-single="Backspace" class="btn-single btn-functions-single del-campo">
                         <i class="icon icon-clear"></i>
                     </div><!-- Deletar número -->
-                    <div class="btn-single btn-functions-single mais-menos">
+                    <div btn-single="meis-menos" class="btn-single btn-functions-single mais-menos">
                         +/-
                     </div><!-- Função mais ou menos -->
                 </div><!-- Funções Calculadora  -->
                 <div class="number-wrapper">
                     <div class="btn-number-wrapper">
-                        <div class="btn-single btn-number-single btn-1">1</div>
-                        <div class="btn-single btn-number-single btn-2">2</div>
-                        <div class="btn-single btn-number-single btn-3">3</div>
+                        <div btn-single="1" class="btn-single btn-number-single btn-1">1</div>
+                        <div btn-single="2" class="btn-single btn-number-single btn-2">2</div>
+                        <div btn-single="3" class="btn-single btn-number-single btn-3">3</div>
                     </div>
                     <div class="btn-number-wrapper">
-                        <div class="btn-single btn-number-single btn-4">4</div>
-                        <div class="btn-single btn-number-single btn-5">5</div>
-                        <div class="btn-single btn-number-single btn-6">6</div>
+                        <div btn-single="4" class="btn-single btn-number-single btn-4">4</div>
+                        <div btn-single="5" class="btn-single btn-number-single btn-5">5</div>
+                        <div btn-single="6" class="btn-single btn-number-single btn-6">6</div>
                     </div>
                     <div class="btn-number-wrapper">
-                        <div class="btn-single btn-number-single btn-7">7</div>
-                        <div class="btn-single btn-number-single btn-8">8</div>
-                        <div class="btn-single btn-number-single btn-9">9</div>
+                        <div btn-single="7" class="btn-single btn-number-single btn-7">7</div>
+                        <div btn-single="8" class="btn-single btn-number-single btn-8">8</div>
+                        <div btn-single="9" class="btn-single btn-number-single btn-9">9</div>
                     </div>
                     <div class="btn-number-wrapper">
-                        <div class="btn-single btn-number-single btn-porcentagem">%</div>
-                        <div class="btn-single btn-number-single btn-0">0</div>
-                        <div class="btn-single btn-number-single btn-ponto">.</div>
+                        <div btn-single="%" class="btn-single btn-number-single btn-porcentagem">%</div>
+                        <div btn-single="0" class="btn-single btn-number-single btn-0">0</div>
+                        <div btn-single="." class="btn-single btn-number-single btn-ponto">.</div>
                     </div>
                 </div><!-- Number Wrapper -->
             </section><!-- Seção principal -->
             <aside class="btn-lateral">
-                <div class="btn-single btn-lateral-single btn-dividir">
+                <div btn-single="/" class="btn-single btn-lateral-single btn-dividir">
                     <i class="icon icon-dividir"></i>
                 </div><!-- Dividir -->
-                <div class="btn-single btn-lateral-single btn-multiplicar">
+                <div btn-single="*" class="btn-single btn-lateral-single btn-multiplicar">
                     x
                 </div><!-- Multiclicar -->
-                <div class="btn-single btn-lateral-single btn-diminuir">
+                <div btn-single="-" class="btn-single btn-lateral-single btn-diminuir">
                     -
                 </div><!-- Diminuir -->
-                <div class="btn-single btn-lateral-single btn-somar">
+                <div btn-single="+" class="btn-single btn-lateral-single btn-somar">
                     +
                 </div><!-- Somar -->
-                <div class="btn-single btn-lateral-single btn-igual">
+                <div btn-single="=" class="btn-single btn-lateral-single btn-igual">
                     =
                 </div><!-- Resultado -->
             </aside><!-- Barra lateral -->
